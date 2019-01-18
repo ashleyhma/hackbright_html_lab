@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+    <head>
+        <title> Ubermelon Order Form </title>
+    </head>
+    <body background="https://www.thehairpin.com/wp-content/uploads/2017/06/1gKEpSDWEs8HR3Fncqh1l0Q.jpeg">
+        <font color="orange">
+            <section>
+                <h1> Order! </h1>
+                <h3> Prices </h3>
+            </section>
+             
+            <section>
+                <table>
+                    <tr>
+                        <th> Melon Name</th>
+                        <th> Prices per lb.</th>
+
+                    </tr>
+                    <tr> 
+                        <td> Watermelon</td>
+                        <td> $1.59</td>
+                    </tr>
+                    <tr> 
+                        <td> Honeydew</td>
+                        <td> $0.99</td>
+                    </tr>
+                    <tr> 
+                        <td> Canteloupe </td>
+                        <td> $1.29</td>
+                    </tr>
+                    <tr> 
+                        <td> Crenshaw</td>
+                        <td> $2.19</td>
+                    </tr>
+                    <tr> 
+                        <td> Canary</td>
+                        <td> $11.99</td>
+                    </tr>
+                </table>
+            </section>
+
+            <section>
+                <br>
+                <br>
+                Place your orders here! You know you want to. 
+                <br>
+                <br>
+                <form action="https://ubermelon-order-form.herokuapp.com/process" method="
+                POST">
+                    First Name: <input type="text" name="firstname"><br>
+                    <br>
+                    Last Name: <input type="text" name="lastname"><br>
+                    <br>
+                    Melon Type: 
+                        <select name="melontype">
+                            <option value="watermelon">Watermelon
+                            <option value="honeydew">Honeydew
+                            <option value="canteloupe">Canteloupe
+                            <option value="crenshaw">Crenshaw
+                            <option value="canary">Canary
+                        </select>
+                        <br>
+                    <br>
+                    Quantity: <input type="text" name="Quantity"><br>
+                    <br>                   
+                    Delivery Time
+                    <input type="radio" name="time" value="am">AM
+                    <input type="radio" name="time" value="pm">PM
+                    <input type="radio" name="time" value="wat">WAT
+                    <br>
+                    <br>
+                    Returning Customer? 
+                    <input type="radio" name="returning" value="yes">Yes
+                    <input type="radio" name="returning" value="no">No
+                    <br>
+                    <br>
+                    <input type="checkbox" name="stats" value="dog">Dog
+                    <img src="https://i.kym-cdn.com/photos/images/original/000/637/833/94e.jpg" alt="Dog" height="100" width="100">
+
+
+                    <input type="checkbox" name="stats" value="cat">Cat
+                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC6CLyzs8HTvoKmxM_-rcp32lKm_aGh8gwgdGMEKqYCYEgsG1q" alt="Cat" height="100" width="100">
+
+                    <input type="checkbox" name="stats" value="Hedgehog">Hedgehog
+                    <img src="https://static.boredpanda.com/blog/wp-content/uploads/2017/04/happiest-smiling-hedgehog-wildo-1-58ef812f8b934__700.jpg" alt="Hedgehog" height="100" width="100">
+
+                    <input type="checkbox" name="stats" value="Balloonicorn">Balloonicorn
+                    
+                    <img src="https://www.thinkgeek.com/images/products/additional/large/1380_team_fortress_balloonicorn_vinyl_figure_inhand.jpg" alt="Balloonicorn" height="100" width="100">
+                    <input type="checkbox" name="stats" value="Yak">Yak
+                    <img src="https://cdn-images-1.medium.com/max/1600/1*QZT1cNAUQyPHxvkWbDAAAg.jpeg" alt="Yak" height="100" width="100">
+                    <br>
+                    <br>
+                    <input type="submit"> 
+            </section>
+        </form>
+    </font>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
